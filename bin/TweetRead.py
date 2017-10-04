@@ -40,13 +40,13 @@ def sendData(c_socket):
   twitter_stream.filter(track=['trump'])
 
 if __name__ == "__main__":
-  s = socket.socket()         # Create a socket object
+  s = socket.socket()        
   sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
   sock.connect(("8.8.8.8", 80))
   host = (sock.getsockname()[0])
-  sock.close()     # Get local machine name
+  sock.close()     # Get IP.
   print("Host is:", host)
-  port = 5555                # Reserve a port for your service.
+  port = 5555                # Reserve a port.
   s.bind((host, port))        # Bind to the port
 
   print("Listening on port: %s" % str(port))
