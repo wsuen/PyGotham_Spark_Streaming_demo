@@ -27,3 +27,7 @@ docker exec <container_id> python3 bin/TweetRead.py
 ```
 This starts the Twitte firehose, and sends the messages themselves to port 5555. At this point, you're reading to start building a streaming app using the included notebook.
 *****
+##Exploration
+
+Spark UI: localhost:4040 by default
+Jupyter notebook server: localhost:8888 by default
