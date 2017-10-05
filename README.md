@@ -30,4 +30,5 @@ This starts the Twitte firehose, and sends the messages themselves to port 5555.
 ## Exploration
 
 Spark UI: localhost:4040 by default 
+
 Jupyter notebook server: localhost:8888 by default
