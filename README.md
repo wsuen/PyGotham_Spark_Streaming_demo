@@ -25,5 +25,5 @@ Sign up for developer credentials for Twitter's Streaming API on apps.twitter.co
 // with container running, start streaming data
 docker exec <container_id> python3 bin/TweetRead.py
 ```
-At this point, you're reading to start building a streaming app using the included notebook.
+This starts the Twitte firehose, and sends the messages themselves to port 5555. At this point, you're reading to start building a streaming app using the included notebook.
 *****
